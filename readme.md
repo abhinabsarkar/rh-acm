@@ -14,23 +14,26 @@ It provides a single view to manage your Kubernetes clusters—from Red Hat Open
 
 * [Install & Demo](https://www.youtube.com/watch?v=4keQWJoFl7A)
 
-Features & demo
-1. [Cluster Lifecycle Overview](https://www.youtube.com/watch?v=1q9vVOsdSiw)
+## Features & demo
+1. Cluster Lifecycle Overview
     * Full management (Create, Upgrade & Destroy) of OpenShift clusters running on-prem, public cloud as well as bare metal
         * Create cluster using IPI
         * Import cluster using UPI
         * Cluster upgrade on both imported & manged upgrade
         * Single pane of glass for all managed clusters 
     * Limited support of Public cloud managed k8s clusters like AKS, GKE, EKS
-2. [Application Lifecycle Overview](https://www.youtube.com/watch?v=gKw-bJGYTQw)
+    * [Short demo]((https://www.youtube.com/watch?v=1q9vVOsdSiw))
+2. Application Lifecycle Overview
     * Deploy workloads to specific clusters based on placement rules
     * Automatically deploy applications to specific clusters by subscribing to different channels (Github, hel repo, etc)
     * Quickly view the health of service endpoints and pods associated with the application topology
-3. [Governance, Risk & Compliance](https://www.youtube.com/watch?v=aaeC2gYV57Q)
+    * [Short demo]((https://www.youtube.com/watch?v=gKw-bJGYTQw))
+3. Governance, Risk & Compliance
     * Pre-built security and configuration controllers to enforce policy on Kubernetes configuration, IAM, etc
     * Governance and risk dashboard across all of the clusters and applications
+    * [Short demo]((https://www.youtube.com/watch?v=aaeC2gYV57Q))
 
-### Competing products
+## Competing products
 * Google GKE Anthos
 * VMware Tanzu Mission Control
 * Azure ARC
